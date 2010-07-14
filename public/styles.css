@@ -242,7 +242,7 @@ li	{
 	padding-left: 20px;
 	}
 	
-#yellowBox	{
+.yellowBox,#yellowBox	{
 	background-color: #fed100;
 	height: 325px;
 	width: 179px;
@@ -251,6 +251,12 @@ li	{
 	margin-bottom: 10px;
 	padding-right: 10px;
 	}
+
+
+.yellowBox .pdficon{ text-align:center; padding:6px 0px 0 0px; text-align:left; height:45px; clear:both;}
+.yellowBox .pdficon .pdf-img{height:40px; width:40px; float:left; display:block;}
+.yellowBox .pdficon .pdf-link{float:left; width:136px; font-size:11px;}
+
 	
 #yellowBox p	{
 	width: 179px;
