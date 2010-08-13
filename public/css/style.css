@@ -56,6 +56,7 @@ a:active{color:#003d24; text-decoration:underline;}
 /*-- column --*/
 
 .sptr1{font-size:1px; line-height:1px; clear:both; height:1px;}
+
 .sptr10{font-size:1px; line-height:1px; clear:both; height:10px;}
 .sptr20{font-size:1px; line-height:1px; clear:both; height:20px;}
 
@@ -134,5 +135,9 @@ a:active{color:#003d24; text-decoration:underline;}
 .succeed-text{padding-bottom:20px;}
 .succeed-text .bigtext{width:20px; float:left; padding-left:20px; color:#006248;}
 .succeed-text .smltext{width:300px;float:left;}
+
+.img-gallary{padding-bottom:20px;}
+.img-gallary .img-gal-l{ float:left; width:298px;}
+.img-gallary .img-gal-r{  float:right; width:298px;}
 
 
