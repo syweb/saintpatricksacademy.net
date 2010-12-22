@@ -4,8 +4,39 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="css/style.css" type="text/css" rel="stylesheet"  />
 <title>Saint Patrick Succeed Academy.</title>
+<!-- lightbox Start-->
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+
+<script src="js/prototype.js" type="text/javascript"></script>
+<script src="js/scriptaculous.js?load=effects,builder" type="text/javascript"></script>
+<script src="js/lightbox.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+  // <![CDATA[
+
+      // Automagically load Lightbox on Page Load - by Bramus! (http://www.bram.us/)
+
+      // Code modded from http://www.huddletogether.com/forum/comments.php?DiscussionID=1269&page=1#Item_0
+
+      function autoFireLightbox() {
+          //Check if location.hash matches a lightbox-anchor. If so, trigger popup of image.
+          setTimeout(function() {
+							window.location = 'index.html#image001'
+              if(document.location.hash && $(document.location.hash.substr(1)).rel.indexOf('lightbox')!=-1) {
+                  myLightbox.start($(document.location.hash.substr(1)));
+              }},
+              250
+          );
+      }
+      Event.observe(window, 'load', autoFireLightbox, false);
+
+  // ]]>
+</script>
+<!-- lightbox End-->
 </head>
 <body>
+	<a href="images/image-1.jpg" rel="lightbox" id="image001" style="display:none;"></a>
 	<!-- start-->
 	<div class="wraper">
 		<!--container start-->
