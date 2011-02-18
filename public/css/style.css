@@ -52,6 +52,9 @@ a:active{color:#003d24; text-decoration:underline;}
 .pdf-bullet-list{padding:0 0 20px 0;}
 .pdf-bullet-list li{ padding:12px 0 12px 40px; background:url(../images/pdf-icon.gif) 0 7px no-repeat;}
 
+.doc-bullet-list{padding:0 0 20px 0;}
+.doc-bullet-list li{ padding:12px 0 12px 40px; background:url(../images/word-icon.gif) 0 7px no-repeat;}
+
 
 /*-- column --*/
 
@@ -126,6 +129,9 @@ a:active{color:#003d24; text-decoration:underline;}
 .calendar-table td{vertical-align:top; border-bottom:1px solid #c8c8c7; padding:10px 0; }
 .calendar-table .datecell{width:60px;}
 .calendar-table .datecell div{width:40px;  text-align:center; padding:5px 2px; background:#006248; font-size:10px; color:#fff; line-height:12px; }
+.calendar-table .datecell-addmission{width:160px;}
+.calendar-table .datecell-addmission div{width:140px; text-align:center; padding:5px 2px; background:#006248; font-size:10px; font-weight:bold; color:#fff; line-height:12px;}
+
 .calendar-table .datacell{ text-align:left;}
 
 .googlemap{padding-bottom:20px;  width:425px;  margin:auto; border:4px solid #006248;}
