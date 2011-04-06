@@ -1,4 +1,4 @@
-set :repository,  "git@github.com:chintansheth/saintpatricksacademy.net.git"
+set :repository,  "git@github.com:syweb/saintpatricksacademy.net.git"
 set :user,        "sites"
 set :domain,      "#{user}@insightmethods.com"
 set :deploy_to,   "/home/sites/saintpatricksacademy.net"
