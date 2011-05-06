@@ -3,37 +3,19 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="css/style.css" type="text/css" rel="stylesheet"  />
+<link media="screen" rel="stylesheet" href="colorbox/css/colorbox.css" />
 <title>Saint Patrick Succeed Academy.</title>
-<!-- lightbox Start-->
-<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
-
-<script src="js/prototype.js" type="text/javascript"></script>
-<script src="js/scriptaculous.js?load=effects,builder" type="text/javascript"></script>
-<script src="js/lightbox.js" type="text/javascript"></script>
-
+<script src="colorbox/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<!-- color box start -->
+<script src="colorbox/js/jquery.colorbox.js" type="text/javascript"></script>
 <script type="text/javascript">
-
-  // <![CDATA[
-
-      // Automagically load Lightbox on Page Load - by Bramus! (http://www.bram.us/)
-
-      // Code modded from http://www.huddletogether.com/forum/comments.php?DiscussionID=1269&page=1#Item_0
-
-      function autoFireLightbox() {
-          //Check if location.hash matches a lightbox-anchor. If so, trigger popup of image.
-          setTimeout(function() {
-							window.location = 'index.html#image001'
-              if(document.location.hash && $(document.location.hash.substr(1)).rel.indexOf('lightbox')!=-1) {
-                  myLightbox.start($(document.location.hash.substr(1)));
-              }},
-              250
-          );
-      }
-      Event.observe(window, 'load', autoFireLightbox, false);
-
-  // ]]>
+	$(document).ready(function(){
+		//autofire
+		$("a.autofire").colorbox({width:"auto", inline:true, href:"#inline_example1"}).click();
+	})
 </script>
-<!-- lightbox End-->
+
+<!-- color box End -->
 <!-- Menu Start -->
 <link rel="stylesheet" type="text/css" href="css/pro_dropdown_2.css" />
 <script src="js/stuHover.js" type="text/javascript"></script>
@@ -55,7 +37,20 @@
 </head>
 <body>
 
-	<a href="images/image-1.jpg" rel="lightbox" id="image001" style="display:none;"></a>
+	
+	<!-- This contains the hidden content for inline calls start-->
+	<a  class="autofire" href="#"  style="display:none;"></a>
+	<div style='display:none'>
+		<div id='inline_example1' style='padding:10px; background:#fff;'>
+		  <img src="images/image-1.jpg" usemap="#flayer" />
+		  <map name="flayer">
+		    <area shape="poly" coords="381,215,779,265,779,565,382,618,380,215" href="summer.html" />
+		  </map>
+		</div>
+	</div>
+	<!-- This contains the hidden content for inline calls End-->
+	
+	
 	<!-- start-->
 	<div class="wraper">
 		<!--container start-->
@@ -137,6 +132,8 @@
 					</div>
 					
 					<div class="column-350">
+					  <div ><a href="summer.html"><img src="images/summer-banner.jpg"></a></div>
+					  <div class="sptr20"></div>
 						<h3 class="title">A mission to help every child succeed</h3>
 						
 						<p>“Your child’s readiness for the 21st century — for jobs we don’t even know about yet — starts with discovering who they are. That’s when they become excited about math, science, technology, literature, art, sports or music — all the programs Saint Patrick SUCCEED Academy offers to prepare young minds for college-prep high school. Share with me your dreams for your kids so I can build a school with your input.”
@@ -212,6 +209,9 @@
 		<!--container end-->
 	</div>
 	<!-- end-->
+	
+	
+	
 	
 </body>
 </html>	

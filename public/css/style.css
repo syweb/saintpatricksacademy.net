@@ -31,6 +31,7 @@ a:visited{color:#003d24; text-decoration:underline;}
 a:hover{color:#003d24; text-decoration:none;}
 a:active{color:#003d24; text-decoration:underline;}
 
+.green-text{color:#003d24; }
 .green a{color:#003d24; text-decoration:none;}
 .green a:link{color:#003d24; text-decoration:none;}
 .green a:visited{color:#003d24; text-decoration:none;}
@@ -146,4 +147,31 @@ a:active{color:#003d24; text-decoration:underline;}
 .img-gallary .img-gal-l{ float:left; width:298px;}
 .img-gallary .img-gal-r{  float:right; width:298px;}
 
+.summer-activities{}
+.summer-activities .summer-banner{float:left; width:310px;}
+.summer-activities .summer-detail{float:left; width:280px;}
 
+.form-box{}
+.form-box .inputbox {border:1px solid #ccc; padding:4px; font-family:Arial, Helvetica, sans-serif; font-size:13px;}
+.form-box label{padding-bottom:5px;  display:block;}
+.input-item{padding-bottom:10px;}
+
+.input-size1{ width:330px; }
+
+.data-table{}
+.data-table td{ vertical-align:top; padding:5px;}
+.data-table .alt td{background:#fff5ca;}
+
+.inputbox,
+.corner-4px{
+	-moz-border-radius: 4px;
+	-webkit-border-radius:4px;
+	border-radius: 4px;	
+}
+
+.inputbox,
+.shadow5px {
+	-webkit-box-shadow: inset 2px 2px 5px #e0e0e0 ;
+	-moz-box-shadow: inset 2px 2px 5px #e0e0e0;
+	box-shadow: inset 2px 2px 5px #e0e0e0;
+}
