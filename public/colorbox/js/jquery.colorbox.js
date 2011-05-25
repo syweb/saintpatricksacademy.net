@@ -17,7 +17,7 @@
 		innerHeight: false,
 		maxHeight: false,
 		scalePhotos: true,
-		scrolling: true,
+		scrolling: false,
 		inline: false,
 		html: false,
 		iframe: false,
